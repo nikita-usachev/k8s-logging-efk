@@ -1,14 +1,10 @@
 # Logging with ElasticSearch
 
----
-
 ## What is EFK?
 
 - ElasticSearch
 - Fluentd
 - Kibana
-
----
 
 ## Why choose EFK over ELK?
 
@@ -50,14 +46,14 @@
 
 7. Docker support:
 
-- EFK: Docker has built in logging driver for Fluentd.
+- EFK: Docker has built-in logging driver for Fluentd.
 - ELK: Requires plugin (filebeat) to read application logs.
 
 8. Which one to use for Kubernetes?
 
 - Fluentd has built-in Docker logging driver and parser.
-- Doesn't require extra agent.
-- Less complex and less mistakes.
-- Fluentd and Kubernetes are both CNCF project.
+- Doesn't require an extra agent.
+- Less complex and fewer mistakes.
+- Fluentd and Kubernetes are both CNCF projects.
 
 CNCF: Cloud Native Computing Foundation
